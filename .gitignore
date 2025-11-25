@@ -62,3 +62,8 @@ pca_transformer_*.pkl
 
 # Pump patterns directory (can be regenerated)
 pump_patterns_*/
+
+# CIFAR-10 dataset (too large for GitHub - download separately)
+data/
+data/cifar-10-python.tar.gz
+data/cifar-10-batches-py/
