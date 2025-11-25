@@ -67,3 +67,9 @@ pump_patterns_*/
 data/
 data/cifar-10-python.tar.gz
 data/cifar-10-batches-py/
+
+# Allow validation result images (exclude general images but keep these)
+*.png
+*.jpg
+*.jpeg
+!validation_results/*.png
