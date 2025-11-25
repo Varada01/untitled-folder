@@ -1,0 +1,20 @@
+{
+  "experiment_1_output_correlation": {
+    "mean": 0.01490397665678813,
+    "std": 0.0901562437373429,
+    "interpretation": "Higher is better (>0.7 is strong evidence)"
+  },
+  "experiment_2_parameter_sensitivity": {
+    "mean": 0.8095626871033137,
+    "interpretation": "Higher is better (>0.6 is strong evidence)"
+  },
+  "experiment_3_classification_agreement": {
+    "agreement": 0.0,
+    "interpretation": "Higher is better (>0.7 is strong evidence)"
+  },
+  "experiment_4_transfer_function_shape": {
+    "mean": NaN,
+    "interpretation": "Higher is better (>0.7 is strong evidence)"
+  },
+  "overall_assessment": "WEAK VALIDATION (Score: nan): The mapping shows limited equivalence. The framework may need significant modifications to achieve better agreement."
+}

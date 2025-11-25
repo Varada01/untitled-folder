@@ -1,0 +1,28 @@
+{
+  "experiment_1_transfer_functions": {
+    "mean_correlation": 1.0,
+    "std_correlation": 6.080941944488117e-17,
+    "min_correlation": 0.9999999999999998,
+    "max_correlation": 1.0,
+    "interpretation": "Correlation between quantum and photonic transfer functions"
+  },
+  "experiment_2_parameter_mapping": {
+    "beta_monotonic": true,
+    "PI_monotonic": true,
+    "beta_range": [
+      0.21079172597725493,
+      0.7892082740227451
+    ],
+    "PI_range": [
+      0.7107917259772549,
+      1.289208274022745
+    ],
+    "interpretation": "Mapping is smooth, bounded, and invertible"
+  },
+  "experiment_3_network_validation": {
+    "output_correlation": 0.01146134377512863,
+    "classification_agreement": 0.13,
+    "network_size": "4x10",
+    "interpretation": "Full network shows functional equivalence"
+  }
+}

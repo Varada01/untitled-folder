@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Data files (large datasets)
+*.npz
+*.pkl
+*.pickle
+
+# Model checkpoints
+*.pth
+*.pt
+*.h5
+*.ckpt
+
+# Generated images (optional - comment out if you want to track them)
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log
+
+# Trained coefficients (large files)
+trained_coeffs_*.npy
+pca_transformer_*.pkl
+
+# Pump patterns directory (can be regenerated)
+pump_patterns_*/
